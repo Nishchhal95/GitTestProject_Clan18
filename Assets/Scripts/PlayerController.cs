@@ -18,7 +18,7 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Time.frameCount % 10 == 0)
+        if (Time.frameCount % 40 == 0)
         {
             Debug.Log("Update on Player");
         }
