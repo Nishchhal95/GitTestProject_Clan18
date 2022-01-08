@@ -21,6 +21,7 @@ public class PlayerController : MonoBehaviour
         if (Time.frameCount % 40 == 0)
         {
             Debug.Log("Update on Player");
+            Debug.Log("Update on Player");
         }
     }
 }
