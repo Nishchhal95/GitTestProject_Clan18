@@ -26,6 +26,9 @@ public class PlayerController : MonoBehaviour
         {
             Debug.Log("Update on Player");
             Debug.Log("Update on Player");
+            Debug.Log("Update on Player");
+            Debug.Log("Update on Player");
+            Debug.Log("Update on Player");
         }
     }
 }
