@@ -9,11 +9,16 @@ public class PlayerController : MonoBehaviour
     {
         // Comment from Github.com HELLO
         // Comment from Nishchhal from his machine which says Hello
+
+        Debug.Log("Start on Player");
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (Time.frameCount % 10 == 0)
+        {
+            Debug.Log("Update on Player");
+        }
     }
 }
