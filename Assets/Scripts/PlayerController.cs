@@ -11,6 +11,8 @@ public class PlayerController : MonoBehaviour
         // Comment from Nishchhal from his machine which says Hello
 
         Debug.Log("Start on Player");
+        Debug.Log("Start on Player");
+        Debug.Log("Start on Player");
     }
 
     // Update is called once per frame
