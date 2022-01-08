@@ -13,6 +13,10 @@ public class PlayerController : MonoBehaviour
         Debug.Log("Start on Player");
         Debug.Log("Start on Player");
         Debug.Log("Start on Player");
+        Debug.Log("Start on Player");
+        Debug.Log("Start on Player");
+        Debug.Log("Start on Player");
+        Debug.Log("Start on Player");
     }
 
     // Update is called once per frame
@@ -20,6 +24,9 @@ public class PlayerController : MonoBehaviour
     {
         if (Time.frameCount % 60 == 0)
         {
+            Debug.Log("Update on Player");
+            Debug.Log("Update on Player");
+            Debug.Log("Update on Player");
             Debug.Log("Update on Player");
             Debug.Log("Update on Player");
         }
